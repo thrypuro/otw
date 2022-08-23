@@ -7,12 +7,8 @@
         "id": "dc569c8470ffb356",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "bandit.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bandit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bandit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "bandit.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -130,8 +122,8 @@
   },
   "active": "dc569c8470ffb356",
   "lastOpenFiles": [
+    "bandit.md",
     "Untitled.md",
-    "2022-08-22.md",
-    "bandit.md"
+    "2022-08-22.md"
   ]
 }
