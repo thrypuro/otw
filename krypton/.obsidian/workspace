@@ -1,0 +1,133 @@
+{
+  "main": {
+    "id": "99c96025589221c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "eccdb435f2dfacd1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "krypton.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ce889af6203fb96",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb94cfbc332aed29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee9911663630be5b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8231329662c003fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8828558d9e7d99a7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "67bd10a49d1d6698",
+    "type": "split",
+    "children": [
+      {
+        "id": "a862fef9309f601a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5a12b0ac7f3fefe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "krypton.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e2086a15e94ba0d7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "krypton.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d98b01a8e1760daa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8e86a47f7ebdef56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "krypton.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "eccdb435f2dfacd1",
+  "lastOpenFiles": []
+}

