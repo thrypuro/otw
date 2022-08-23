@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "a5fe2442a7115435",
+    "id": "b6f31e0d6b62a750",
     "type": "split",
     "children": [
       {
-        "id": "dc569c8470ffb356",
+        "id": "576313467ed0720b",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9c5b7d73803e10f9",
+    "id": "d82c5b90a324582d",
     "type": "split",
     "children": [
       {
-        "id": "0d4d46624b9c4d08",
+        "id": "54f4086cba8d0c11",
         "type": "tabs",
         "children": [
           {
-            "id": "b99af07416afa532",
+            "id": "9c44232b4775a3b3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "130ef25de702c7f9",
+            "id": "e0f0da2e4f2d389d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "1ad0a67150a6eaf4",
+            "id": "966629ba5a658456",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,15 +64,15 @@
     "width": 300
   },
   "right": {
-    "id": "41ae182c8e352384",
+    "id": "3381b0ae2b7f9d7a",
     "type": "split",
     "children": [
       {
-        "id": "b1caf69c18e6b214",
+        "id": "659aeaf8588d218a",
         "type": "tabs",
         "children": [
           {
-            "id": "f23103f0d28aec28",
+            "id": "0a9e980612554c75",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -89,7 +89,7 @@
             }
           },
           {
-            "id": "8cac1fd91f8a9dc2",
+            "id": "b7eaec162a5736e8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -101,7 +101,7 @@
             }
           },
           {
-            "id": "e99f6c60b2465603",
+            "id": "ca5aaaebac9237ff",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,7 +112,7 @@
             }
           },
           {
-            "id": "a50c5f0d5b751133",
+            "id": "602b329897cd728b",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -128,10 +128,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dc569c8470ffb356",
+  "active": "576313467ed0720b",
   "lastOpenFiles": [
-    "bandit.md",
-    "Untitled.md",
-    "2022-08-22.md"
+    "leviathan/README.md",
+    "bandit/README.md",
+    "krypton/README.md",
+    "README.md"
   ]
 }

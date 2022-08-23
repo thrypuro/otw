@@ -1,0 +1,11 @@
+{
+  "table-editor-obsidian:delete-column": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ]
+}

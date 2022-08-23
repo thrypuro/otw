@@ -4,6 +4,8 @@ port : 2220
 `ssh banditx@bandit.labs.overthewire.org -p 2220`
 logging in with private key
 `ssh -i banditx.key banditx@bandit.labs.overthewire.org -p 2220`
+
+
 ## bandit1 : boJ9jbbUNNfktd78OOpsqOltutMc3MY1 
 
 ```bash

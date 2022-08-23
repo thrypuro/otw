@@ -4,6 +4,10 @@ Port: 2223
 `ssh leviathanx@leviathan.labs.overthewire.org -p 2223`
 useful command for getting the binary
 `scp -P 2223 leviathanx@leviathan.labs.overthewire.org:pathtofile .`
+
+this site carried me 
+https://dogbolt.org/ 
+
 ## leviathan0 : leviathan0
 go into `.backup` and grep password in the html file
 
