@@ -8,7 +8,7 @@ useful command for getting the binary
 go into `.backup` and grep password in the html file
 
 ## leviathan1 : rioGegei8m
-reversing chall, pass is sex
+reversing chall, pass is sex ;)
 
 ## leviathan2 : ougahZi8Ta
 THIS WAS VERY HARD,
