@@ -12,7 +12,7 @@ Bandit, Leviathan and Krypton writeups are very rushed as I have a lot of experi
 | Krypton   | 7         | 7            | Easy      |
 | Leviathan | 7         | 7            | Easy      |
 | Natas     | 12        | 33           | Web lol   |
-| Narnia    | 0         | 9            | ??        |
+| Narnia    | 2         | 9            | ??        |
 | Behemoth  | 0         | 8            | ??        |
 | Utumno    | 0         | 8            | ??        |
 | Maze      | 0         | 9            | ??        |

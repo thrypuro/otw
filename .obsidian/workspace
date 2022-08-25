@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "576313467ed0720b",
+        "id": "f9112d44f80f5727",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "narnia/README.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "narnia/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "narnia/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "narnia/README.md"
               }
             }
           }
@@ -128,11 +128,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "576313467ed0720b",
+  "active": "f9112d44f80f5727",
   "lastOpenFiles": [
+    "README.md",
+    "Untitled.md",
+    "narnia/README.md",
     "leviathan/README.md",
     "bandit/README.md",
-    "krypton/README.md",
-    "README.md"
+    "krypton/README.md"
   ]
 }
