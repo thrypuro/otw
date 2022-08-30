@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f9112d44f80f5727",
+        "id": "a19a08e99855d5f5",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -128,13 +128,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f9112d44f80f5727",
+  "active": "a19a08e99855d5f5",
   "lastOpenFiles": [
     "README.md",
     "narnia/README.md",
+    "Untitled 1.md",
     "Untitled.md",
-    "leviathan/README.md",
     "bandit/README.md",
+    "leviathan/README.md",
     "krypton/README.md"
   ]
 }

